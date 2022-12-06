@@ -2,7 +2,7 @@
 
 ## _Junior Front-end Developer_
 
-===
+---
 
 ### CONTACT INFORMATION
 
@@ -10,13 +10,13 @@
 - **E-mail:** [dmitrykirshchin@gmail.com](dmitrykirshchin@gmail.com)
 - **GitHub:** [dmitrykirshchin](https://github.com/dmitrykirshchin)
 
-===
+---
 
 ### ABOUT MYSELF
 
 I am 23 years old,I worked as a civil engineer for 2.5 years in construction. At one point I realized that the work does not give me pleasure. That is why I`m here. My goal is to gain knowledge in the field of front-end development.
 
-===
+---
 
 ### SKILLS
 
@@ -26,7 +26,7 @@ I am 23 years old,I worked as a civil engineer for 2.5 years in construction. At
 - Git, GitHub
 - VS Code
 
-===
+---
 
 ### CODE EXAMPLE
 
@@ -36,7 +36,7 @@ function square(a, b) {
 }
 ```
 
-===
+---
 
 ### EDUCATION
 
@@ -45,7 +45,7 @@ function square(a, b) {
   - [CS50 Lectures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
   - [FreeCodeCamp](https://www.freecodecamp.org/)
 
-===
+---
 
 ### LANGUAGES
 
