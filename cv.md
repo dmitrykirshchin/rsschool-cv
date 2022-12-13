@@ -31,7 +31,7 @@ I am 23 years old,I worked as a civil engineer for 2.5 years in construction. At
 ### CODE EXAMPLE
 
 ```js
-function square(a, b) {
+function multiply(a, b) {
   return a * b;
 }
 ```

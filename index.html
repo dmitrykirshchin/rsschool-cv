@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/icon/favicon.ico" />
+    <title>Dmitry Kirshchin CV</title>
+  </head>
+
+  <body>
+    <header class="header" style="border: 2px solid red">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a herf="#about" class="link nav__link">About myself</a>
+            </li>
+            <li class="nav__item">
+              <a herf="#education" class="link nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a herf="#projects" class="link nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a herf="#code" class="link nav__link">Code exapmle</a>
+            </li>
+            <li class="nav__item">
+              <a herf="#contacts" class="link nav__link">Contacts</a>
+            </li>
+            <li class="nav__item">
+              <a herf="#skills" class="link nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a herf="#languages" class="link nav__link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" style="border: 2px solid red">
+      <div class="container">
+        <section class="profile">
+          <img class="photo" src="assets/img/myphoto.jpg" alt="My photo" />
+          <div class="profile__text">
+            <h1 class="profile__name">Dmitry Kirshchin</h1>
+            <p class="profile__prof">Junior Front-End Developer</p>
+          </div>
+        </section>
+        <div class="main__container">
+          <div
+            class="main__column main__column-left"
+            style="border: 2px solid rgb(78, 225, 122)"
+          >
+            <section class="contacts" id="contacts">
+              <h2 class="section__title">Contacts</h2>
+              <ul class="section__list">
+                <li class="section__item">Minsk, Belarus</li>
+                <li class="section__item">Phone: +375 (33) 387-84-51</li>
+                <li class="section__item">
+                  E-mail:
+                  <a
+                    herf="dmitrykirshchin@gmail.com"
+                    class="link contacts__link"
+                    >dmitrykirshchin@gmail.com</a
+                  >
+                </li>
+                <li class="section__item">
+                  GitHub:
+                  <a
+                    herf="https://github.com/dmitrykirshchin"
+                    class="link contacts__link"
+                    >dmitrykirshchin</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <section class="skills" id="skills">
+              <h2 class="skills__title">Skills</h2>
+              <ul class="skills__list">
+                <li class="skill__item">HTML5</li>
+                <li class="skill__item">CSS3</li>
+                <li class="skill__item">JavaScript Basics</li>
+                <li class="skill__item">Git, GitHub</li>
+                <li class="skill__item">VS Code</li>
+              </ul>
+            </section>
+            <section class="lenguage" id="lenguage">
+              <h2 class="lenguage__title">Languages</h2>
+              <ul class="language__list">
+                <li class="language__item">
+                  <b class="strong-text">Russian</b> - native speaker
+                </li>
+                <li class="language__item">
+                  <b class="strong-text">English</b> - A2 (B1 in process...)
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div
+            class="main__column main__column-right"
+            style="border: 2px solid rgb(78, 225, 122)"
+          >
+            <section class="about" id="about">
+              <h2 class="about__title">About myself</h2>
+              <p class="about__text">
+                I am 23 years old,I worked as a civil engineer for 2.5 years in
+                construction. At one point I realized that the work does not
+                give me pleasure. That is why I`m here. My goal is to gain
+                knowledge in the field of front-end development.
+              </p>
+            </section>
+            <section class="education" id="education">
+              <h2 class="education__title">Education</h2>
+              <h3 class="university__title">University</h3>
+              <ul class="university__list">
+                <li class="university__item">
+                  Belarusian National Technical University, Civil Engineering
+                  major
+                </li>
+              </ul>
+              <h3 class="courses__title">Courses</h3>
+              <ul class="courses__list">
+                <li class="courses__item">
+                  <a
+                    href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
+                    class="link courses__link"
+                    >CS50 Lectures</a
+                  >
+                </li>
+                <li class="courses__item">
+                  <a
+                    href="https://www.freecodecamp.org/"
+                    class="link courses__link"
+                    >FreeCodeCamp</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <section class="projects" id="projects">
+              <h2 class="projects__title">Projects</h2>
+              <ul class="projects__list">
+                <li class="projects__item">
+                  <a
+                    href="https://dmitrykirshchin.github.io/rsschool-cv/"
+                    class="link projects__link"
+                    target="_blank"
+                    >My CV</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <section class="code" id="code">
+              <h2 class="code__title">Code exapmle</h2>
+              <pre class="section-text">
+      <code>function multiply(a, b) {
+      return a * b;
+      }</code>
+                </pre>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer" style="border: 2px solid red">
+      <div class="container"></div>
+    </footer>
+  </body>
+</html>
