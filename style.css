@@ -26,7 +26,8 @@ body {
 
 /* Header */
 .nav__list {
-  background-color: rgba(225, 250, 250, 0.7);
+  background-color: rgba(47, 79, 79, 0.7);
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 .nav__list {
@@ -75,6 +76,7 @@ body {
     background-color: rgba(225, 250, 250, 0.7);
     margin: 20px 0;
     border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 .profile__text {
@@ -98,4 +100,90 @@ body {
     display: flex;
 }
 
+.contacts {
+    padding: 1px 15px 20px 15px;
+    margin: 0;
+    background-color: rgba(225, 250, 250, 0.7);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
 
+.skills {
+    padding: 0 15px 20px 15px;
+    margin: 0;
+    background-color: rgba(225, 250, 250, 0.7);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.language {
+    padding: 0 15px 20px 15px;
+    margin: 0;
+    background-color: rgba(225, 250, 250, 0.7);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.about {
+    padding: 1px 20px 50px 20px;
+    margin-left: 20px;
+    background-color: rgba(225, 250, 250, 0.7);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+.education {
+    padding: 0px 20px 3px 20px;
+    margin: 25px 0 0 20px;
+    background-color: rgba(225, 250, 250, 0.7);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.projects {
+    padding: 0 20px 50px 20px;
+    margin-left: 20px;
+    background-color: rgba(225, 250, 250, 0.7);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.code {
+    padding: 0 20px 0 20px;
+    margin-left: 20px;
+    background-color: rgba(225, 250, 250, 0.7);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section-title {
+    width: 100%;
+}
+
+.university__section {
+    width: 50%;
+}
+
+/* footer */
+.github__img {
+    width: 50px;
+}
+
+.rss__img {
+    width: 100px;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgba(47, 79, 79, 0.7);
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}

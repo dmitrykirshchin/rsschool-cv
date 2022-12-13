@@ -10,36 +10,36 @@
   </head>
 
   <body>
-    <header class="header" style="border: 2px solid red">
+    <header class="header">
       <div class="container">
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a herf="#about" class="link nav__link">About myself</a>
+              <a href="#about" class="link nav__link">About myself</a>
             </li>
             <li class="nav__item">
-              <a herf="#education" class="link nav__link">Education</a>
+              <a href="#education" class="link nav__link">Education</a>
             </li>
             <li class="nav__item">
-              <a herf="#projects" class="link nav__link">Projects</a>
+              <a href="#projects" class="link nav__link">Projects</a>
             </li>
             <li class="nav__item">
-              <a herf="#code" class="link nav__link">Code exapmle</a>
+              <a href="#code" class="link nav__link">Code exapmle</a>
             </li>
             <li class="nav__item">
-              <a herf="#contacts" class="link nav__link">Contacts</a>
+              <a href="#contacts" class="link nav__link">Contacts</a>
             </li>
             <li class="nav__item">
-              <a herf="#skills" class="link nav__link">Skills</a>
+              <a href="#skills" class="link nav__link">Skills</a>
             </li>
             <li class="nav__item">
-              <a herf="#languages" class="link nav__link">Languages</a>
+              <a href="#language" class="link nav__link">Languages</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main class="main" style="border: 2px solid red">
+    <main class="main">
       <div class="container">
         <section class="profile">
           <img class="photo" src="assets/img/myphoto.jpg" alt="My photo" />
@@ -49,10 +49,7 @@
           </div>
         </section>
         <div class="main__container">
-          <div
-            class="main__column main__column-left"
-            style="border: 2px solid rgb(78, 225, 122)"
-          >
+          <div class="main__column main__column-left">
             <section class="contacts" id="contacts">
               <h2 class="section__title">Contacts</h2>
               <ul class="section__list">
@@ -61,7 +58,8 @@
                 <li class="section__item">
                   E-mail:
                   <a
-                    herf="dmitrykirshchin@gmail.com"
+                    href="dmitrykirshchin@gmail.com"
+                    target="_blank"
                     class="link contacts__link"
                     >dmitrykirshchin@gmail.com</a
                   >
@@ -69,7 +67,8 @@
                 <li class="section__item">
                   GitHub:
                   <a
-                    herf="https://github.com/dmitrykirshchin"
+                    href="https://github.com/dmitrykirshchin"
+                    target="_blank"
                     class="link contacts__link"
                     >dmitrykirshchin</a
                   >
@@ -77,71 +76,74 @@
               </ul>
             </section>
             <section class="skills" id="skills">
-              <h2 class="skills__title">Skills</h2>
-              <ul class="skills__list">
-                <li class="skill__item">HTML5</li>
-                <li class="skill__item">CSS3</li>
-                <li class="skill__item">JavaScript Basics</li>
-                <li class="skill__item">Git, GitHub</li>
-                <li class="skill__item">VS Code</li>
+              <h2 class="ssection-title">Skills</h2>
+              <ul class="section__list">
+                <li class="section__item">HTML5</li>
+                <li class="section__item">CSS3</li>
+                <li class="section__item">JavaScript Basics</li>
+                <li class="section__item">Git, GitHub</li>
+                <li class="section__item">VS Code</li>
               </ul>
             </section>
-            <section class="lenguage" id="lenguage">
-              <h2 class="lenguage__title">Languages</h2>
-              <ul class="language__list">
-                <li class="language__item">
+            <section class="language" id="language">
+              <h2 class="section-title">Languages</h2>
+              <ul class="section__list">
+                <li class="section__item">
                   <b class="strong-text">Russian</b> - native speaker
                 </li>
-                <li class="language__item">
+                <li class="section__item">
                   <b class="strong-text">English</b> - A2 (B1 in process...)
                 </li>
               </ul>
             </section>
           </div>
-          <div
-            class="main__column main__column-right"
-            style="border: 2px solid rgb(78, 225, 122)"
-          >
+          <div class="main__column main__column-right">
             <section class="about" id="about">
-              <h2 class="about__title">About myself</h2>
+              <h2 class="section-title">About myself</h2>
               <p class="about__text">
-                I am 23 years old,I worked as a civil engineer for 2.5 years in
+                I am 24 years old,I worked as a civil engineer for 2.5 years in
                 construction. At one point I realized that the work does not
                 give me pleasure. That is why I`m here. My goal is to gain
                 knowledge in the field of front-end development.
               </p>
             </section>
             <section class="education" id="education">
-              <h2 class="education__title">Education</h2>
-              <h3 class="university__title">University</h3>
-              <ul class="university__list">
-                <li class="university__item">
-                  Belarusian National Technical University, Civil Engineering
-                  major
-                </li>
-              </ul>
-              <h3 class="courses__title">Courses</h3>
-              <ul class="courses__list">
-                <li class="courses__item">
-                  <a
-                    href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
-                    class="link courses__link"
-                    >CS50 Lectures</a
-                  >
-                </li>
-                <li class="courses__item">
-                  <a
-                    href="https://www.freecodecamp.org/"
-                    class="link courses__link"
-                    >FreeCodeCamp</a
-                  >
-                </li>
-              </ul>
+              <h2 class="section-title">Education</h2>
+              <div class="university__section">
+                <h3 class="university__title">University</h3>
+                <ul class="university__list">
+                  <li class="university__item">
+                    Belarusian National Technical University, Civil Engineering
+                    major
+                  </li>
+                </ul>
+              </div>
+              <div class="courses__section">
+                <h3 class="courses__title">Courses</h3>
+                <ul class="courses__list">
+                  <li class="courses__item">
+                    <a
+                      href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
+                      class="link courses__link"
+                      target="_blank"
+                      >CS50 Lectures</a
+                    >
+                  </li>
+                  <li class="section__item">
+                    <a
+                      href="https://www.freecodecamp.org/"
+                      class="link courses__link"
+                      target="_blank"
+                      >FreeCodeCamp</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </section>
             <section class="projects" id="projects">
-              <h2 class="projects__title">Projects</h2>
-              <ul class="projects__list">
-                <li class="projects__item">
+              <h2 class="section-title">Projects</h2>
+              <ul class="section__list">
+                <li class="section__item">
                   <a
                     href="https://dmitrykirshchin.github.io/rsschool-cv/"
                     class="link projects__link"
@@ -152,8 +154,8 @@
               </ul>
             </section>
             <section class="code" id="code">
-              <h2 class="code__title">Code exapmle</h2>
-              <pre class="section-text">
+              <h2 class="section-title">Code exapmle</h2>
+              <pre class="code-text">
       <code>function multiply(a, b) {
       return a * b;
       }</code>
@@ -163,8 +165,38 @@
         </div>
       </div>
     </main>
-    <footer class="footer" style="border: 2px solid red">
-      <div class="container"></div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__text">
+            <div class="link__github">
+                <a
+                  href="https://github.com/dmitrykirshchin"
+                  class="link github__link"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/svg/github.svg"
+                    class="github__img"
+                    alt="GitHub img"
+                  />dmitrykirshchin
+                </a>
+              </div>
+              <div class="year-text">2022</div>
+              <div class="link__rss">
+                <a
+                  href="https://rs.school/js/"
+                  class="link rss__link"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/svg/rs_school_js.svg"
+                    class="rss__img"
+                    alt="rs-shcool"
+                  />
+                </a>
+              </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
